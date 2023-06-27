@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BATCH-2 LECTURE-50 DATA TYPES AND COMPARSION OPERATORS</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+            .box1{
+                width: 400px;
+                height: 400px;
+                background-color: blue;
+                line-height: 400px;
+                text-align: center;
+                color: #fff;
+                font-size: 2em;
+                border-radius: 60px;
+            }
+        </style>
+        <script>
+            // 1. Way is console.log
+           // window.alert("JS is running inside body tag");
+
+        </script>
+    </head>
+    <body>
+        <div class="box1">OKLABS1</div>
+        <div class="box2">OKLABS2</div>
+        <div class="box3" style="width: 400px; height: 400px; background-color: yellow; text-align: center; color: white; line-height: 400px; border-radius: 50px;">OKLABS3</div>
+        <div id="box4"></div>
+        <div id="box5"></div>
+
+
+        <script src="./js/script.js"></script>
+        <script>
+            console.log("JS code is running inside head tag")
+
+
+        </script>
+        <script>
+            var x = 10; // variable Decleration & Initialization
+
+            // 1 way of js output
+            console.log( typeof x);
+            // 2 2nd way of js output
+            window.alert( typeof x);
+            // 3rd way of js output
+            document.getElementById("box5").innerHTML = typeof x;
+            // 3th way of js output
+            document.write('<h1>'+ x + '</h1>')
+        </script>
+    </body>
+</html>
